@@ -1,0 +1,440 @@
+@charset "UTF-8";
+
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.6.0
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2018 Daniel Eden
+ */
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+
+
+
+
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+
+
+
+
+
+
+
+
+
+
+/*!
+ * animsition v4.0.2
+ * A simple and easy jQuery plugin for CSS animated page transitions.
+ * http://blivesta.github.io/animsition
+ * License : MIT
+ * Author : blivesta (http://blivesta.com/)
+ */
+.animsition,
+.animsition-overlay {
+  position: relative;
+  opacity: 0;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+/**
+ * overlay option
+ */
+.animsition-overlay-slide {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+}
+/* loading option */
+.animsition-loading,
+.animsition-loading:after {
+  width: 32px;
+  height: 32px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -16px;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+.animsition-loading {
+  background-color: transparent;
+  border-top: 5px solid rgba(0, 0, 0, 0.2);
+  border-right: 5px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+  border-left: 5px solid #eee;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-animation-iteration-count:infinite;
+          animation-iteration-count:infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: .8s;
+          animation-duration: .8s;
+  -webkit-animation-name: animsition-loading;
+          animation-name: animsition-loading;
+}
+
+@-webkit-keyframes animsition-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes animsition-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
+
+
+@-webkit-keyframes overlay-slide-in-top {
+  0% {
+    height: 100%;
+  }
+  100% {
+    height: 0;
+  }
+}
+
+@keyframes overlay-slide-in-top {
+  0% {
+    height: 100%;
+  }
+  100% {
+    height: 0;
+  }
+}
+
+
+.overlay-slide-in-top {
+  top: 0;
+  height: 0;
+  -webkit-animation-name: overlay-slide-in-top;
+          animation-name: overlay-slide-in-top;
+}
+
+
+@-webkit-keyframes overlay-slide-out-top {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+
+@keyframes overlay-slide-out-top {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+
+.overlay-slide-out-top {
+  top: 0;
+  height: 100%;
+  -webkit-animation-name: overlay-slide-out-top;
+          animation-name: overlay-slide-out-top;
+}
+@-webkit-keyframes overlay-slide-in-bottom {
+  0% {
+    height: 100%;
+  }
+  100% {
+    height: 0;
+  }
+}
+@keyframes overlay-slide-in-bottom {
+  0% {
+    height: 100%;
+  }
+  100% {
+    height: 0;
+  }
+}
+
+
+.overlay-slide-in-bottom {
+  bottom: 0;
+  height: 0;
+  -webkit-animation-name: overlay-slide-in-bottom;
+          animation-name: overlay-slide-in-bottom;
+}
+
+
+@-webkit-keyframes overlay-slide-out-bottom {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+
+@keyframes overlay-slide-out-bottom {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+
+.overlay-slide-out-bottom {
+  bottom: 0;
+  height: 100%;
+  -webkit-animation-name: overlay-slide-out-bottom;
+          animation-name: overlay-slide-out-bottom;
+}
+
+
+
+
+
+/* ------------------------- TYPING EFFECT ------------------------- */
+
+
+.about h3, .wnba h3, .stevie h3, .aesop h3{
+  display: none;
+  position: relative;
+}
+
+.aesop:hover h3{
+
+  font-size: 0.7em;
+  line-height: 2em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  text-align: left;
+  display: block;
+
+  position: fixed;
+  left: 3.55em;
+  top: 2em;
+  width: 15%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 0.6s steps(60, end);
+  z-index: 1000;
+  text-decoration: line-through;
+  margin: 0;
+  }
+
+  .stevie:hover h3{
+
+    font-size: 0.7em;
+    line-height: 2em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    text-align: left;
+    display: block;
+
+    position: fixed;
+    left: 3.5em;
+    top: 1.95em;
+    width: 15%;
+
+
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 0.6s steps(60, end);
+    z-index: 1000;
+    text-decoration: line-through;
+    margin: 0;
+    }
+
+
+
+.wnba:hover h3{
+
+  font-size: 0.7em;
+  line-height: 2em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  text-align: left;
+  display: block;
+  /* position: absolute;
+  bottom:85.4%;
+  left: -781.5;
+  color: black; */
+
+  position: fixed;
+  left: 3.55em;
+  top: 1.95em;
+  width: 15%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 0.6s steps(60, end);
+  z-index: 1000;
+  text-decoration: line-through;
+  margin: 0;
+  }
+
+
+.about:hover h3 {
+
+  font-size: 0.7em;
+  line-height: 1em;
+  letter-spacing: 0.05em;
+  text-align: left;
+  display: block;
+
+  position: fixed;
+  /* top: 115px;
+  bottom: -35%;
+  left: 10%; */
+
+  left: 3.5em;
+  top: 10.3em;
+  width: 15%;
+
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 1s steps(60, end);
+  text-decoration: line-through;
+  margin: 0;
+  }
+
+
+
+/* CODE TAKEN FROM https://codepen.io/anon/pen/PaeNBj */
+
+  @keyframes type{
+    from { width: 0; }
+  }
+
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; }
+  }
+
+  ::selection{
+    background: black;
+  }

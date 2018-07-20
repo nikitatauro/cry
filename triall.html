@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Nikita Tauro</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+
+
+  </head>
+
+  <body>
+
+  <div id='loader'></div>
+
+
+      <nav class="menu inline-link">
+        <a class="disappear" href="#work"><h3>WORK</h3></a>
+        <a href="http://www.sfu.ca/~ntauro/Portfolio/COOP%20resume.pdf"><h3>RESUME</h3></a>
+      </nav>
+
+  <div class="content">
+
+      <div class="landing wow fadeIn center ">
+        <!-- <img class="fade" src="img/self.png" width="250">
+        <div class="description">
+          <h3>PRODUCT DESIGNER</h3>
+          <h3>BASED IN VANCOUVER, BC</h3>
+        </div>
+        <h1>NIKITA TAURO</h1>
+    	<figure class="line"></figure> -->
+      <h3>Hello</h3>
+      <h2>I'm Nikita Tauro,</h2>
+      <h2>an experience designer</h2>
+      <h2>based in Vancouver, BC</h2>
+
+      <!-- <img class="image-hover beach" src="img/beach.gif"> -->
+      </div>
+
+      <div class="sidemenu">
+        <div class="sideleft inline-link">
+          <!-- <figure class="line"></figure> -->
+          <a href="about.html"><h3>ABOUT ME</h3></a>
+        </div>
+
+        <div class="sideright inline-link">
+          <!-- <figure class="line"></figure> -->
+          <div class="disappear"><a href=""><h3>GET IN TOUCH</h3></a></div>
+        </div>
+      </div>
+
+
+    <section id="work">
+
+        <div class="project wow fadeIn">
+            <h3>01/03</h3>
+
+            <div class="img__wrap">
+              <a href="wnba.html">
+
+              <img src="img/wnbathumb.gif"  alt="mywnba project thumbnail with wnba players posing" width="400">
+
+              </a>
+                <div class="img__description_layer">
+                  <div class="img__description">
+                    <h2 > MY WNBA  </h2>
+                  </div>
+                </div>
+                <p>UX, strategy, research</p>
+            </div>
+          </div>
+
+
+        <div class="project wow fadeIn">
+          <a href="aesop.html">
+            <h2>The Salon</h2>
+            <p>UX, strategy, research</p>
+            <img src="img/wnbathumb.gif"  alt="mywnba project thumbnail with wnba players posing" width="400">
+          </a>
+        </div>
+
+
+
+        <div class="project wow fadeIn">
+          <a href="stevie.html">
+            <h2>Stevie</h2>
+            <p>UX, strategy, research</p>
+            <img src="img/stevieblob.gif"  alt="mywnba project thumbnail with wnba players posing" width="400">
+          </a>
+        </div>
+
+
+      </section>
+
+      <footer>
+        <p> © 2018 Nikita Tauro • coded by yours truly </p>
+      </footer>
+
+    </div>
+
+      <script src="js/jquery.js"></script>
+      <script src="js/fade.js"></script>
+      <script src="js/wow.js"></script>
+      <script> new WOW().init(); </script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+      <script>
+      $(document).ready(function() {
+      //Preloader
+      $(window).on("load", function() {
+      preloaderFadeOutTime = 500;
+      function hidePreloader() {
+      var preloader = $('#loader');
+      preloader.fadeOut(preloaderFadeOutTime);
+      }
+      hidePreloader();
+      });
+      });
+      </script>
+
+  </body>

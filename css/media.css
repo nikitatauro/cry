@@ -1,0 +1,152 @@
+@media (max-width: 375px) {
+  .side {
+    display: none;
+  }
+
+  .name {
+    bottom: 2.3em;
+  }
+  .name p{
+    font-size: 0.9em;
+  }
+
+  section {
+    width: 90%;
+  }
+
+  .container{
+    flex-wrap: wrap;
+  }
+
+  .video-flex video {
+    width: 250px ;
+    height: 156px ;
+    margin-bottom: 1em;
+    margin-top: 1em;
+   }
+
+   .video-flex{
+     justify-content: center;
+     padding-right: 0;
+   }
+
+   .col1of2, .col2of2{
+     width: 96%;
+   }
+
+   .caption-flex h2{
+     font-size: 1.2em;
+   }
+
+
+   .bio{
+     width: 100%;
+     margin: 2em;
+   }
+
+   .bio h3{
+     font-size: 1.1em;
+   }
+}
+
+
+@media (min-width: 375px) and (max-width: 560px) {
+
+.video-flex video {
+  width: 320px ;
+  height: 200px ;
+ }
+
+ .video-flex{
+   justify-content: center;
+   padding-right: 0;
+
+ }
+
+}
+
+/* TABLET ===========================================================================*/
+
+
+@media (min-width: 376px) and (max-width: 768px) {
+
+  .max-width {
+     max-width: none;
+  }
+
+ .side {
+   display: none;
+ }
+
+ .col1of2{
+   width: 100%;
+ }
+
+ .col2of2{
+   width: 100%;
+ }
+
+ section {
+   width: 85%;
+ }
+
+ img {
+   width: 100%;
+ }
+
+ /* .about .image-hover,  .wnba .image-hover,
+ .aesop .image-hover,  .stevie .image-hover{
+   display: block;
+   height: 55%;
+ } */
+
+ .about img {
+   position: inherit;
+ }
+
+ .white h1 {
+   text-align: center;
+   font-size: 0.2em;
+ }
+
+ .white h3 {
+   display: none;
+ }
+
+ .about, .wnba, .aesop, .stevie {
+   border: 1px solid black;
+   padding: 3em;
+   margin-left: 0.8em;
+   margin-bottom: 2em;
+ }
+
+ .flex-project{
+   display: none;
+ }
+
+ .container{
+   flex-wrap: wrap;
+ }
+
+ .opening{
+   width: 90%;
+ }
+
+
+    .bio{
+      width: 80%;
+      margin: 2em;
+    }
+
+    .bio h3{
+      font-size: 1.1em;
+    }
+
+}
+
+
+
+/* DESKTOP ===========================================================================*/
+@media (min-width: 769px) and (max-width: 5000px) {
+
+}
