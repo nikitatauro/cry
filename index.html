@@ -11,12 +11,11 @@
 
     <!-- OG Titling for Facebook and Stuff -->
 		<meta property="og:title" content="Nikita Tauro • Product Designer">
-		<meta property="og:url" content="http://nikitauro.com/">
+		<meta property="og:url" content="http://nikitauro.me/">
 		<meta property="og:description" content="Nikita Tauro is a product designer in Vancouver, BC.">
-<!-- 		<meta property="og:image" content=" "> -->
+		<meta property="og:image" content="http://nikitauro.me/img/icon.png">
 
     <title>Nikita Tauro 〰️ Product Designer </title>
-
 
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/main.css">
@@ -24,38 +23,40 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/loader.css">
 
-
-
   </head>
 
   <body>
 
-
+    <nav>
+      <div class="bottombar slideInRight wow">
+      <a class="small-text" href="email.html"><h3> 〰️ GET IN TOUCH</h3></a>
+      </div>
+    </nav>
 
     <div class="home">
 
     <div id='loader'></div>
 
-    <div class="white link">
-      <div class="about flex-project">
-        <h4>/01</h4>
-        <h1><a href="about.html">ABOUT </a></h1>
+    <div class="white link ">
+      <div class="about flex-project ">
+        <h4 class="slideInRight wow">/01</h4>
+        <h1 class="slideInRight wow"><a href="about.html">ABOUT </a></h1>
         <img class="image-hover" src="img/me.JPG">
         <h3> AYO ITS ME </h3>
       </div>
 
 
       <div class="wnba flex-project">
-        <h4>/02</h4>
-        <h1><a href="wnba.html">MY WNBA</a></h1>
+        <h4 class="slideInRight wow">/02</h4>
+        <h1 class="slideInRight wow"><a href="wnba.html">MY WNBA</a></h1>
         <img class="image-hover" src="img/skylar.jpg" >
         <h3>Product design<br>
         UX design</h3>
       </div>
 
       <div class="aesop flex-project">
-        <h4>/03</h4>
-        <h1><a href="aesop.html">The Salon</a></h1>
+        <h4 class="slideInRight wow">/03</h4>
+        <h1 class="slideInRight wow"><a href="aesop.html">The Salon</a></h1>
         <img class="image-hover" src="img/spinnin.gif" >
         <h3>Product design<br>
         UX design<br><br>
@@ -63,8 +64,8 @@
       </div>
 
       <div class="stevie flex-project">
-        <h4>/04</h4>
-        <h1><a href="index.html">Stevie</a></h1>
+        <h4 class="slideInRight wow">/04</h4>
+        <h1 class="slideInRight wow"><a href="index.html">Stevie</a></h1>
         <figure>
         <img class="image-hover" src="img/stevie.jpg"  >
         <figcaption><h1 style="font-size: 1em;">COMING SOON</h1></figcaption>
@@ -73,48 +74,42 @@
       </div>
     </div>
 
-  </div>
-
-  <div class="side">
-    <div class="pd"><h3>  PRODUCT DESIGN   </h3></div>
-    <h3>  UX DESIGN   </h3>
-    <h3>  ILLUSTRATION   </h3>
-    <h3>  ANIMATION   </h3>
-    <div class="grey">
-      <h3> AYO ITS ME    </h3>
     </div>
 
-  </div>
+    <div class="side">
+      <div class="pd"><h3>  PRODUCT DESIGN   </h3></div>
+      <h3>  UX DESIGN   </h3>
+      <h3>  ILLUSTRATION   </h3>
+      <h3>  ANIMATION   </h3>
+      <div class="grey">
+        <h3> AYO ITS ME    </h3>
+      </div>
 
-  <div class="name">
-    <h3>NIKITA TAURO</h3>
-    <div class="small-text"><p> PRODUCT DESIGN STUDENT BASED IN VANCOUVER, CA.</p></div>
-  </div>
+    </div>
+
+    <div class="name">
+      <h3>NIKITA TAURO</h3>
+      <div class="small-text"><p> PRODUCT DESIGN STUDENT BASED IN VANCOUVER, CA.</p></div>
+    </div>
+
+      <script src="js/jquery.js"></script>
+      <script src="js/fade.js"></script>
+      <script src="js/wow.js"></script>
+      <script> new WOW().init(); </script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 
-  <div class="bottombar">
-  <a class="small-text" href="email.html"> 〰️ GET IN TOUCH</a></p>
-  </div>
-
-
-    <script src="js/jquery.js"></script>
-    <script src="js/fade.js"></script>
-    <script src="js/wow.js"></script>
-    <script> new WOW().init(); </script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-
-    <script>
-    $(document).ready(function() {
-    //Preloader
-    $(window).on("load", function() {
-    preloaderFadeOutTime = 500;
-    function hidePreloader() {
-    var preloader = $('#loader');
-    preloader.fadeOut(preloaderFadeOutTime);
-    }
-    hidePreloader();
-    });
-    });
-    </script>
+      <script>
+      $(document).ready(function() {
+      //Preloader
+      $(window).on("load", function() {
+      preloaderFadeOutTime = 500;
+      function hidePreloader() {
+      var preloader = $('#loader');
+      preloader.fadeOut(preloaderFadeOutTime);
+      }
+      hidePreloader();
+      });
+      });
+      </script>
   </body>

@@ -2,5 +2,5 @@
 
 
 $(window).scroll(function(){
-    $(".fade").css("opacity", 1 - $(window).scrollTop() / 500);
+    $(".top").css("opacity", 1 - $(window).scrollTop() / 250);
   });
