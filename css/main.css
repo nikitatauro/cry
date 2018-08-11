@@ -158,6 +158,13 @@ video {
   margin-right: auto;
 }
 
+.beige-bg{
+  border: grey   2em solid;
+  background-color:  grey  ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .menu {
   text-align: center;
   position: fixed;
