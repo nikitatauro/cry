@@ -157,9 +157,10 @@
  }
 
  .white h1 {
-   text-align: center;
+   /* text-align: center; */
    font-size: 0.2em;
  }
+
 
  .white h3 {
    display: none;
