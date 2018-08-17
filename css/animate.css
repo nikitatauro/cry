@@ -380,15 +380,15 @@
 
 .aesop:hover h3{
 
-  font-size: 0.7em;
+  font-size: .8em;
   line-height: 2em;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   text-align: left;
   display: block;
   position: fixed;
-  left: 3.55em;
-  top: 2.005em;
+  left: 3.1em;
+  top: 1.7em;
   width: 15%;
   white-space: nowrap;
   overflow: hidden;
@@ -401,15 +401,15 @@
 
 .stevie:hover h3{
 
-  font-size: 0.7em;
+  font-size: 0.8em;
   line-height: 2em;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   text-align: left;
   display: block;
   position: fixed;
-  left: 3.5em;
-  top: 1.95em;
+  left: 3.1em;
+  top: 1.7em;
   width: 15%;
   white-space: nowrap;
   overflow: hidden;
