@@ -85,6 +85,13 @@
      margin-top: 2em !important;
    }
 
+   .mobile-text{
+    width: 80% !important;
+    text-align: left;
+    margin-top: 7em !important;
+   }
+
+
 }
 
 
@@ -165,6 +172,12 @@
  .mobile-img {
    width: 47%;
    margin-top: 2em !important;
+ }
+
+ .mobile-text{
+  width: 80% !important;
+  text-align: left;
+    margin-top: 7em !important;
  }
 
  .about img {
