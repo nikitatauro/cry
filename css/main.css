@@ -434,6 +434,7 @@ img {
 .aesop:hover .image-hover {
   display: block;
   height: 55%;
+  z-index: 10;
 }
 
 .stevie:hover .image-hover {
