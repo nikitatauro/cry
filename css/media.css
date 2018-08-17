@@ -50,8 +50,6 @@
 
    .opening p{
      font-size: 1em;
-
-
    }
 
    .wnba-gif{
@@ -76,6 +74,15 @@
 
    .bottombar{
      display: none !important;
+   }
+
+   .flex{
+     margin-right: 0;
+   }
+
+   .mobile-img {
+     width: 47%;
+     margin-top: 2em !important;
    }
 
 }
@@ -122,6 +129,9 @@
    display: none !important;
  }
 
+ .flex{
+  margin-right: 0;
+  }
 }
 /* TABLET ===========================================================================*/
 
@@ -152,6 +162,11 @@
    width: 100%;
  }
 
+ .mobile-img {
+   width: 47%;
+   margin-top: 2em !important;
+ }
+
  .about img {
    position: inherit;
  }
@@ -165,13 +180,6 @@
  .white h3 {
    display: none;
  }
-
- /* .about, .wnba, .aesop, .stevie {
-   border: 1px solid black;
-   padding: 3em;
-   margin-left: 0.8em;
-   margin-bottom: 2em;
- } */
 
  .flex-project{
    display: none;
@@ -198,6 +206,9 @@
     width: 80%;
   }
 
+   .flex{
+     margin-right: 0;
+   }
 }
 
 
