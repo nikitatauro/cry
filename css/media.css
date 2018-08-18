@@ -7,7 +7,11 @@
     bottom: 2.3em;
   }
   .name p{
-    font-size: 0.9em;
+    font-size: 0.8em;
+  }
+
+  .name h3{
+    font-size: 2em !important;
   }
 
   section {
@@ -73,7 +77,20 @@
    }
 
    .bottombar{
-     display: none !important;
+     bottom: 1em !important;
+     left: 2em !important;
+   }
+
+   .name {
+     bottom: 2em !important;
+     left: 1em !important;
+   }
+   .name p{
+     font-size: 0.8em !important;
+   }
+
+   .name h3{
+     font-size: 2em !important;
    }
 
    .flex{
@@ -91,6 +108,13 @@
     margin-top: 7em !important;
    }
 
+   .aesop h3, h4 {
+     display: none;
+   }
+
+   .aesop h1{
+     font-size: 2em !important;
+   }
 
 }
 
@@ -132,8 +156,18 @@
    display:none;
  }
 
- .bottombar{
+ /* .bottombar{
    display: none !important;
+ } */
+
+ .bottombar{
+   bottom: 2em !important;
+   left: 2em !important;
+ }
+
+ .name {
+   bottom: 3em !important;
+   left: 1em !important;
  }
 
  .flex{
@@ -144,6 +178,10 @@
 
 
 @media (min-width: 376px) and (max-width: 768px) {
+
+  .name h3{
+    font-size: 2.5em !important;
+  }
 
   .max-width {
      max-width: none;
@@ -222,6 +260,12 @@
    .flex{
      margin-right: 0;
    }
+
+
+  .aesop h3 {
+    display: none !important;
+  }
+
 }
 
 

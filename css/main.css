@@ -274,12 +274,8 @@ img {
 }
 
 .line {
-  background-color: black;
-  height: 20px;
-  width: 1px;
-  margin: 0 auto;
-  z-index: 9;
-  top: 10px;
+  border-top: 1px solid #c9c9c9;
+  margin-bottom: 4em;
 }
 
 .center{
@@ -495,7 +491,7 @@ img {
 .link h4 {
   margin-top: 0.6em;
   margin-left: 0.5em;
-  font-size: 0.7em;
+  font-size: 0.6em;
 }
 
 .name {
@@ -554,23 +550,34 @@ img {
 
 
 .next-project {
-  padding-top: 0.7em;
+  /* padding-top: 0.7em; */
   text-align: right;
+  margin-top: 0;
 }
 
 .next-project h1{
   margin-top: 0;
+  margin-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-family: "BA";
   font-size: 2.5em;
 }
 
-.next-project  a{
+.next-project p{
+  margin-top: 0;
+  margin-bottom: 3em;
+  letter-spacing: 0.1em;
+  font-size: 0.7em;
+}
+
+.next-project   a{
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 0.3px;
   -webkit-text-stroke-color: #333;
 }
+
+
 
 .next-project  a:hover {
     -webkit-text-fill-color: transparent;
