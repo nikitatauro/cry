@@ -1,24 +1,34 @@
 @font-face {
-	font-family: 'Akkurat-Bold';
+	font-family: 'Graphik-Regular';
 	font-weight: bold;
 	font-style: normal;
-  src: url('../fonts/Akkurat-Bold.eot');
-  src: url('../fonts/Akkurat-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Akkurat-Bold.woff') format('woff'),
-    url('../fonts/Akkurat-Bold.woff2') format('woff2'),
-    url('../fonts/Akkurat-Bold.ttf') format('truetype');
+  src: url('../fonts/graphik/Graphik-Regular.eot');
+  src: url('../fonts/graphik/Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/graphik/Graphik-Regular.woff') format('woff'),
+    url('../fonts/graphik/Graphik-Regular.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'Akkurat';
+	font-family: 'Graphik-Medium';
+	/* font-weight: bold;
+	font-style: normal; */
+  src: url('../fonts/graphik/Graphik-Medium.eot');
+  src: url('../fonts/graphik/Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/graphik/Graphik-Medium.woff') format('woff'),
+    url('../fonts/graphik/Graphik-Medium.woff2') format('woff2'),
+    url('../fonts/graphik/Graphik-Medium.otf') format('otf');
+}
+@font-face {
+	font-family: 'Graphik-Semibold';
 	font-weight: bold;
 	font-style: normal;
-  src: url('../fonts/Akkurat.eot');
-  src: url('../fonts/Akkurat.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Akkurat.woff') format('woff'),
-		    url('../fonts/Akkurat.woff2') format('woff2'),
-    url('../fonts/Akkurat.ttf') format('truetype');
+  src: url('../fonts/graphik/Graphik-Semibold.eot');
+  src: url('../fonts/graphik/Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/graphik/Graphik-Semibold.woff') format('woff'),
+    url('../fonts/graphik/Graphik-Semibold.otf') format('otf'),
+    url('../fonts/graphik/Graphik-Semibold.ttf') format('truetype');
 }
+
 
 @font-face {
 	font-family: 'Berthold';
@@ -64,24 +74,4 @@
     url('../fonts/BA.woff2') format('woff2'),
     url('../fonts/BA.woff') format('woff'),
     url('../fonts/BA.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Adieu';
-	font-weight: normal;
-	font-style: normal;
-  src: url('../fonts/Adieu-Bold.eot');
-  src: url('../fonts/Adieu-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Adieu-Bold.woff') format('woff'),
-    url('../fonts/Adieu-Bold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Adieu-b';
-	font-weight: normal;
-	font-style: normal;
-  src: url('../fonts/Adieu-Black.eot');
-  src: url('../fonts/Adieu-Black.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Adieu-Black.woff') format('woff'),
-    url('../fonts/Adieu-Black.ttf') format('truetype');
 }
