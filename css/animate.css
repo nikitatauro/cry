@@ -395,7 +395,7 @@
   width: 30em;
   animation: type 0.6s steps(60, end);
   z-index: 1000;
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
   margin: 0;
   }
 
