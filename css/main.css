@@ -107,6 +107,12 @@ strong{
   font-family: "Graphik-Semibold";
   font-weight: 500;
 }
+
+.width {              /*------- MIN MAX WIDTH OF FLEX 2 COLUMNS PARAGRAPSH!! --------*/
+  min-width: 250px;
+  max-width: 300px;
+}
+
 .project h3 {
   font-family: "Graphik-Semibold";
   color: black;
