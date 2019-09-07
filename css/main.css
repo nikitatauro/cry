@@ -78,9 +78,9 @@ p a:hover {
   transition: 1
 }
 
-h3 a{
+/* h3 a{
     border-bottom: 1px solid ;
-}
+} */
 
 h3 a:hover {
   /* -webkit-text-fill-color: transparent;
@@ -107,6 +107,8 @@ strong{
   font-family: "Graphik-Semibold";
   font-weight: 500;
 }
+
+
 
 .width {              /*------- MIN MAX WIDTH OF FLEX 2 COLUMNS PARAGRAPSH!! --------*/
   min-width: 250px;
@@ -257,6 +259,7 @@ img {
 .opening p {
   position: fixed;
   top: 35%;
+  letter-spacing: .001em;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -329,53 +332,43 @@ img {
   transform: translate3d(-50%, -50%, 0);
 }
 
-.about-bg{
-  /* background-color: black; */
-}
 
-.about-bg h3{
-  color: black;
-}
+
 
 .bio{
   width: 54%;
-  margin: 5em;
-  /* margin-bottom: 0; */
   position: absolute;
-  /* bottom: 0%; */
-  top: 10%;
+  top: 30%;
+  left: 10%;
 
 }
 
 .bio h3{
-  font-family: "Graphik-Regular";
-  font-size: 1.2em;
+  font-family: "sg";
+  font-size: 1.8em;
   line-height: 1.5em;
   letter-spacing: 0.03em;
+  color: #fff4ed;
+  font-weight: 10;
 }
 
-
+.bio a{
+  color: #fff4ed;
+  font-size: 1em;
+    text-decoration: none;
+}
 
 .contact {
-  /* font-size:1em; */
-  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.contact h3{
+  margin-top: 3em;
   letter-spacing: 0.1em;
-  /* font-family: "BA"; */
-
+  font-size: 1em;
 }
-
-/* .bio a{
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: black;
-}
-
-.bio a:hover {
-  -webkit-text-fill-color: transparent;
-	-webkit-text-fill-color: black;
-  -webkit-text-stroke-width: 0.2px;
-  -webkit-text-stroke-color:  black;
-} */
 
 
 
@@ -555,7 +548,7 @@ img.image-hover{
 
 .side h3{
   color: #B8B8B8;
-  font-size: .8em;
+  font-size: .7em;
   line-height: 1em;
   letter-spacing: 0.05em;
   opacity: 0.7;
@@ -576,21 +569,23 @@ img.image-hover{
   position: fixed;
   left: 2.5em;
   bottom: 1.3em;
-  background-color: white;
+
 }
 
 .name h3 {
   margin-bottom: 0.5em;
   letter-spacing: 0.1em;
-  font-size: 3.3em;
+  font-size: 3em;
 }
 
 .name p{
-  font-size: 1em;
-  color: grey;
-  font-family: "BA";
-  letter-spacing: 0.2em;
-  margin-top: 2em;
+  font-size: 0.8em;
+  /* color: grey; */
+  /* font-family: "BA"; */
+  letter-spacing: 0.03em;
+  /* margin-top: 2em; */
+  width: 70%;
+  line-height: 1.5em;
 }
 
 .bottombar{

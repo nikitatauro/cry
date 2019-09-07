@@ -75,3 +75,21 @@
     url('../fonts/BA.woff') format('woff'),
     url('../fonts/BA.ttf') format('truetype');
 }
+
+@font-face {
+	font-family: 'Sharp';
+	font-weight: normal;
+	font-style: normal;
+  src: url('../fonts/sharp/sharp-medium.eot');
+  src: url('../fonts/sharp/sharp-medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sharp/sharp-medium.woff2') format('woff2'),
+    url('../fonts/sharp/sharp-medium.woff') format('woff'),
+    url('../fonts//sharp/sharp-medium.otf') format('otf');
+}
+
+@font-face {
+	font-family: 'sg';
+	font-weight: normal;
+	font-style: normal;
+  src: url('../fonts/sharp/SG22.ttf');
+}
