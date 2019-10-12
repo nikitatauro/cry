@@ -336,11 +336,10 @@ img {
 
 
 .bio{
-  width: 54%;
-  position: absolute;
-  top: 30%;
-  left: 10%;
-
+  width: 60%;
+  position: static;
+  padding-top: 15%;
+  padding-left: 5%;
 }
 
 .bio h3{
@@ -356,6 +355,20 @@ img {
   color: #fff4ed;
   font-size: 1em;
     text-decoration: none;
+}
+
+.bio a{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.03em;
+  -webkit-text-stroke-color: #fff4ed;
+}
+
+
+.bio a:hover {
+  -webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: #fff4ed;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
 }
 
 .contact {
@@ -472,7 +485,7 @@ img {
   overflow: visible;
   pointer-events: none;
   position: fixed;
-  top: 35vw;
+  top:25vw;
   left: 70vw;
   z-index: 1000;
 }
