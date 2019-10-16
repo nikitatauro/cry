@@ -1,11 +1,11 @@
 
 
 p {
-  font-family: "Graphik-Regular";
+  font-family: "Berthold";
   font-size: 1em;
   letter-spacing: 0.01em;
   line-height: 1.8em;
-  color: #484848;
+  color: black;
 }
 
 h1{
@@ -104,8 +104,8 @@ body {
 
 
 strong{
-  font-family: "Graphik-Semibold";
-  font-weight: 500;
+  /* font-family: "Graphik-Semibold"; */
+  font-weight: 600;
 }
 
 
@@ -116,9 +116,10 @@ strong{
 }
 
 .project h3 {
-  font-family: "Graphik-Semibold";
+  font-family: "BA";
   color: black;
-  font-size: 1.4em;
+  font-size: 1.3em;
+  text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 1em;
   letter-spacing: 0.05em;
@@ -177,6 +178,11 @@ img {
 
 .image {
   width: 100%;
+}
+
+.arrow {
+    color: #ffce1f;
+
 }
 
 .shadow {
@@ -258,6 +264,7 @@ img {
 
 .opening p {
   position: fixed;
+  font-family: "BA";
   top: 35%;
   letter-spacing: .001em;
   left: 0;
@@ -372,13 +379,13 @@ img {
 }
 
 .contact {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   width: 40%;
 }
 
 .contact h3{
-  margin-top: 3em;
+  /* margin-top: 3em; */
   letter-spacing: 0.1em;
   font-size: 1em;
 }

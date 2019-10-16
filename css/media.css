@@ -4,9 +4,12 @@
   }
 
   .name {
-    /* bottom: 2.3em; */
     top: 1% !important;
+    position: fixed;
+    left: 1em !important;
+    overflow-y: scroll;
   }
+
   .name p{
     font-size: 0.8em;
     display: none;
@@ -47,7 +50,6 @@
    .caption-flex h2{
      font-size: 1.2em;
    }
-
 
    .bio{
      width: 100%;
@@ -91,14 +93,6 @@
      letter-spacing: 0.1em !important;
    }
 
-   .name {
-     bottom: 2em !important;
-     left: 1em !important;
-   }
-   .name p{
-     font-size: 0.8em !important;
-   }
-
    .flex{
      margin-right: 0;
    }
@@ -130,11 +124,6 @@
      overflow-y: scroll;
    }
 
-   .name {
-     position: fixed;
-     top: 0;
-           overflow-y: scroll;
-   }
 }
 
 
@@ -144,12 +133,35 @@
     position: fixed;
     right: 0.5em;
     /* top: 5em; */
-    top: 100vw;
+    bottom: 0%;
   }
 
   .name {
+    position: fixed;
     top: 1% !important;
+    left: 1em !important;
+    overflow-y: scroll;
   }
+
+  .name p{
+    font-size: 0.8em;
+    /* display: none; */
+  }
+
+  .name h3{
+    font-size: 0.6em !important;
+    font-family: "BA";
+    color: black;
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+
+  /* .name {
+    bottom: 3em !important;
+    left: 1em !important;
+  } */
+
+
 
 .video-flex video {
   width: 320px ;
@@ -186,19 +198,14 @@
    display:none;
  }
 
- /* .bottombar{
-   display: none !important;
- } */
+  .bottombar{
+    top: 1em !important;
+    right: 1.8em !important;
+  }
 
- .bottombar{
-   bottom: 2em !important;
-   left: 2em !important;
- }
-
- .name {
-   bottom: 3em !important;
-   left: 1em !important;
- }
+  .bottombar h3{
+    letter-spacing: 0.1em !important;
+  }
 
  .flex{
   margin-right: 0;
@@ -209,9 +216,10 @@
 
 @media (min-width: 376px) and (max-width: 768px) {
 
-  .name h3{
-    font-size: 2.5em !important;
+  .name p {
+    display: none;
   }
+
 
   .max-width {
      max-width: none;
