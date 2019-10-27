@@ -27,6 +27,10 @@
     width: 90%;
   }
 
+  .top strong{
+    font-size: 1em;
+  }
+
   .container{
     flex-wrap: wrap;
   }
