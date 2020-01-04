@@ -259,6 +259,7 @@ img {
   text-align: center;
   height: 100vh;
   z-index: 100;
+  background-color: #111111;
 }
 
 
@@ -273,6 +274,7 @@ img {
   margin-right:auto;
   width: 60%;
   font-size: 1.3em;
+  color: #fff4ed;
 }
 
 
@@ -496,13 +498,22 @@ img {
   left: 80vw;
   z-index: 1000;
 }
+.about-lava:hover ~ .image-hover-lava{
+  display: block;
+  overflow: visible;
+  pointer-events: none;
+  position: fixed;
+  top:25vw;
+  left: 80vw;
+  z-index: 1000;
+}
 
 img.image-hover{
   /* max-width:425px; */
   height:auto;
 }
 
-.image-hover {
+.image-hover-lava, .image-hover {
   display: none;
   position: absolute;
   z-index: -5;
