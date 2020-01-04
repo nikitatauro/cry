@@ -513,7 +513,7 @@ img.image-hover{
   height:auto;
 }
 
-.image-hover-lava, .image-hover {
+.image-hover-lava, .image-hover{
   display: none;
   position: absolute;
   z-index: -5;
