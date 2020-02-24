@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Nikita Tauro is a product designer in Vancouver, BC.">
+    <meta name="keywords" content="Nikita Tauro, Nikitauro, Portfolio, Product Designer, Designer, Vancouver">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- OG Titling for Facebook and Stuff -->
+		<meta property="og:title" content="Nikita Tauro • Product Designer">
+		<meta property="og:url" content="http://nikitauro.me/">
+		<meta property="og:description" content="Nikita Tauro is a product designer in Vancouver, BC.">
+		<meta property="og:image" content="http://nikitauro.me/img/icon.png">
+
+    <title>Nikita Tauro 〰️ Product Designer </title>
+
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/loader.css">
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122658030-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-122658030-1');
+    </script>
+
+
+
+  </head>
+
+  <body>
+
+
+  <nav>
+      <div class="small-text">
+        <a href="index.html" > <h3>– BACK</h3> </a>
+      </div>
+  </nav>
+
+  <div class="project">
+
+  <div class="fullscreen top">
+      <!-- <img class="image" src="img/dd19/main.png"  > -->
+    <div class="fadeIn wow">
+            <img class="image fullscreen" style="width:80%; padding-top: 6%;" src="img/split/cover.png" >
+      <!-- <p style="width:40%;" > <strong> Receipt </strong> is an iOS app that helps groups split bills efficiently with an
+        integrated payment request system.
+       </p> -->
+    </div>
+  </div>
+
+      <!-- <img class="image fullscreen" style="width:80%;" src="img/split/cover.png" > -->
+
+
+  <section class="wow fadeIn">
+
+    <div class="small-text col1of2"><h3>CONTEXT</h3></div>
+
+    <p>Timeframe: <strong> 15 hours over 3 days </strong> from start to finish. <br>
+      Tools: <strong>Sketch, Principle, Adobe After Effects</strong>. <br>
+      Prompt: <strong>Design a standalone bill splitting app for iOS or Android</strong> that addressed the following:</p>
+      <ol style="width:70%;">
+        <li>Ability to split bill and tip with multiple people</li>
+        <li>Ability to specify tip amount or percentage (ex 10%, 15%, 20%)</li>
+        <li>Be creative with what features, if any, you decide to include</li>
+      <ol>
+      </div>
+
+  </section>
+
+
+
+  <section>
+    <h4>RESEARCH</h4>
+    <h3>INITIAL THOUGHTS</h3>
+    <p>
+      I firmly believe that design is meaningless if not contextually driven.
+      As such, every decision in my design process needs to be a result of understanding the user and the context that it lives in.
+      To kickstart my process, I outlined the following questions to learn, validate and disapprove any assumptions that I may have: </p>
+        <ol>
+          <li>In what context would one want to split a bill? What tools are being currently used to split bills?</li>
+          <li>What are the current pain-points?</li>
+          <li>What factors that matter the most when it comes to splitting a bill?</li>
+          <li>What is the user’s end goal?</li>
+          <li>How might we minimize the number of steps it takes to achieve the end goal?</li>
+          <li>What is the most intuitive and low-effort entry point into this app?</li>
+        </ol>
+
+
+
+  </section>
+
+  <section>
+  <h3>INSIGHTS</h3>
+    <p>To ground my research in real-life scenarios, I conducted interviews with friends to understand what their experience has been with
+      splitting bills. From these conversations I gathered the following insights:
+    </p>
+
+    <img src="img/split/insight.png" width="100%" style="padding-top:5%;">
+
+    <p>
+      I quickly realized that the existing applications don’t offer anything more than an intuitive calculator
+      however a significant part of this experience extends to until all debts have been settled and people have been paid back.
+      Based on my research I reframed the initial question of “how might we create a simple and intuitive way to split group expenses?” to:
+    </p>
+  </section>
+
+
+
+  <section>
+    <h3 class="center dropbox-text" style="width:75%;"> “How might we design for an end-to-end seamless flow that alleviates the current fragmented experience of splitting and paying bills?“
+    </h3>
+  </section>
+
+    <section>
+
+      <h3>IDEATION</h3>
+
+      <p>
+      My main goal while ideating was to make the experience seamless, quick, and efficient.
+      As I started to work out the user flow for this application, I realized several different use cases for a bill splitting app.
+      </p>
+
+      <p>
+      <strong>(Challenge)</strong> I found myself coming up with several ideas that addressed the pain-points highlighted in my research.
+      For example, one friction I picked up on was the inconvenience of passing the paper bill around for people to determine their share,
+      while others wait patiently for their turn. I wrestled with the idea of using computer vision technology to scan and read receipts,
+      to minimize user input while leverage existing technology. However, realizing that this is a standalone bill-splitting app,
+      I reasoned that such technology wouldn’t be very feasible, and doesn’t adapt to existing user behaviours.
+      </p>
+    </section>
+
+
+    <section>
+      <figure>
+        <img src="img/split/sketches.png" width="100%;">
+        <figcaption><h5>Working out the logical app flow</h5>
+        </figcaption>
+      </figure>
+   </section>
+
+
+    <section>
+       <p> I had to scope down and create constraints for myself to prevent this app from being a feature-heavy application.
+        I wanted the app to stay as close to the real-life bill splitting experience where it would zone into a specific user
+        need and serve as a touchpoint to ease frictions rather than adding more tasks for the user.
+        I chose to design an app with the following constraints:
+       </p>
+
+
+      <ol style="width:70%;">
+        <li>  Transaction specific bill-splitting rather than incurring and incremental expenses overtime.</li>
+        <li>  Only one individual would need the application downloaded.</li>
+      </ol>
+
+
+     </section>
+
+
+    <figure style="margin-top: 0;">
+      <img src="img/split/lo-fi.png" width="100%;">
+      <figcaption><h5>Medium fidelity wireframes</h5>
+      </figcaption>
+    </figure>
+
+
+    <section>
+    </section>
+
+  <section class="wow fadeIn">
+    <p> As I moved from pen & paper to medium-fidelity and eventually to high fidelity wireframes,
+      I became aware of some flaws in my logic flow which required me to constantly iterate on the screens.
+      I continuously looked for ways to make the flow as concise and intuitive as possible-
+      combining screens and taking out UI elements unnecessary to achieve the end goal.</p>
+
+  </section>
+
+ <img src="img/split/old-vs-new.png" width="80%">
+
+  <section>
+    <p><strong>(Challenge)</strong> In the initial stages of the design, I broke down 2 separate contexts for splitting the bill —
+      split evenly or get each person to input their amount. With this mental model,
+      I created 2 separate flows that were determined based on the user’s input in the “Add tip” screen (see image above).
+      I realized that this was adding unnecessary complexity and offered little flexibility to the user if they changed their mind,
+      needing them to click “Back” twice to change their input.
+      Additionally, moving the option to “Split evenly” in the summary screen is more visually contextual, easing their decision-making process.</p>
+  </section>
+
+  <section>
+    <img src="img/split/flow.png" width="80%">
+    <figcaption><h5>Finalized app architecture</h5>
+    </figcaption>
+  </section>
+
+ <section>
+ </section>
+
+
+  <section>
+    <h3 class="width">APP WALKTHROUGH</h3>
+    <p>Here is a quick application walkthrough video that I made to demonstrate how the user flow</p>
+     <div style="padding:56.25% 0 0 0;position:relative;">
+       <iframe src="https://www.youtube.com/embed/M5JjewI3vns"
+         style="position:absolute; top:0; left:0; width:100%; height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+       </iframe>
+     </div><script src="https://player.vimeo.com/api/player.js"></script>
+   <p></p>
+  </section>
+
+ <img src="img/split/notify.png" width="80%">
+ <img src="img/split/native.png" width="80%">
+ <img src="img/split/no-mistake.png" width="80%">
+ <img src="img/split/keep-track.png" width="80%">
+ <img src="img/split/transfer.png" width="80%">
+
+
+ <section class="wow fadeIn">
+   <h3>TECHNOLOGY</h3>
+   <p> In Canada (where Venmo isn’t available), people are increasingly transferring money online through their banking apps that use Interac e-Transfer.
+      Utilizing Interac’s API, this service would be able to work cross-functionally between different Canadian banks,
+      eliminating the need to input your friends’ banking information to be able to send a money request.
+      This also reduces the cognitive load for the individual owing money, where they are 2 clicks away from transferring money.
+    </p>
+ </section>
+
+
+
+
+  <section class="wow fadeIn">
+    <h3>CLOSING THOUGHTS</h3>
+    <p>The bill-splitting task is far more complex than I first assumed it to be.
+      The most challenging part of the process was recognizing that not all use cases can be solved with one app,
+      especially when prioritizing simplicity and intuitiveness.
+      I was constantly trying to balance giving users agency while not overwhelming them with too many decisions.
+      Due to the tight timeframe of this assignment, I prioritized designing screens that would help understand this product’s narrative.
+      Given more time, the following is what I would work on further:
+    </p>
+
+    <ol style="padding-left: 5%; width:80%;">
+      <li>Design the onboarding screen that helps first-time users understand the end goal of this application and the settings screen where
+      users can turn on/off locations services and notifications.</li>
+
+      <li>Add options to create a more flexible system. For example, if members of the party are not saved as contacts,
+      give the user the ability to manually add people to the bill.</li>
+
+      <li>Currently, this app works under the premise that everyone agrees on a tip percentage (since it was a group experience).
+      What would the user flow be if each individual determined how much they tipped?</li>
+
+      <li>A nuanced UI design where users are primed and given more control over the text receipt link message prior to it being sent.</li>
+
+      <li>Splitting bills can get quite complex and confusing the bigger the party, how would we take that into consideration with the current UI?</li>
+    </ol>
+
+  </section>
+
+       <!-- <iframe src="https://player.vimeo.com/video/359013532" width="100%" height="360" frameborder="0"
+        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+
+
+
+  <section class="wow fadeIn">
+  </section>
+
+
+  <section class="wow fadeIn">
+  </section>
+
+ <div>
+
+
+        <section class="line wow fadeIn">
+          <!-- <figure class="horizonal-line"></figure> -->
+        </section>
+
+        <section class=" wow fadeIn">
+          <div class="container" style="align-items:flex-start;">
+
+            <div class="flex">
+             <h3>More projects </h3>
+           </div>
+
+
+              <div class="next-project" style="position:static !important;">
+
+                <div class="flex-project">
+                  <h4>/01</h4>
+                  <div class="project-name grey-text">
+                    <a href="aesop.html"><h1>The Salon </h1></a>
+                   <p> Animation, UX design</p>
+                 </div>
+                </div>
+
+
+                <div class="flex-project">
+                  <h4>/02</h4>
+                  <div class="project-name grey-text">
+                   <a href="wnba.html"><h1>My WNBA</h1> </a>
+                    <p> UI, UX design</p>
+                  </div>
+                </div>
+
+                <div class="flex-project">
+                  <h4>/03</h4>
+                  <div class="project-name grey-text">
+                   <a href="atomic.html"><h1>Atomic Ranch </h1> </a>
+                    <p> Magazine redesign</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            </div>
+          <!-- </div> -->
+        </section>
+
+
+
+         <script src="js/jquery.js"></script>
+         <script src="js/fade.js"></script>
+         <script src="js/wow.js"></script>
+         <script> new WOW().init(); </script>
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+         <script>
+         $(document).ready(function() {
+         //Preloader
+         $(window).on("load", function() {
+         preloaderFadeOutTime = 500;
+         function hidePreloader() {
+         var preloader = $('#loader');
+         preloader.fadeOut(preloaderFadeOutTime);
+         }
+         hidePreloader();
+         });
+         });
+         </script>
+
+
+
+         <!-- Default Statcounter code for Portfolio
+         http://www.nikitauro.me -->
+         <script type="text/javascript">
+         var sc_project=11773940;
+         var sc_invisible=1;
+         var sc_security="12d0304c";
+         </script>
+         <script type="text/javascript"
+         src="https://www.statcounter.com/counter/counter.js"
+         async></script>
+         <noscript><div class="statcounter"><a title="web counter"
+         href="http://statcounter.com/" target="_blank"><img
+         class="statcounter"
+         src="//c.statcounter.com/11773940/0/12d0304c/1/" alt="web
+         counter"></a></div></noscript>
+         <!-- End of Statcounter Code -->
+  </body>
