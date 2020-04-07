@@ -486,7 +486,7 @@
 /* STRIKE-THROUGH CODE TAKEN FROM https://codepen.io/artyom-ivanov/pen/awyyzv */
 
   nav a{
-    letter-spacing:10em;
+    /* letter-spacing:10em; */
     position:relative;
     display:inline-block;
   }
@@ -495,8 +495,8 @@
     position: absolute;
     width: 100%;
     height: 1px;
-    background:#16151b;
-    top:72%;
+    background:white;
+    top:105%;
     animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
   }
   nav a:hover:before{

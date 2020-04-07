@@ -1,4 +1,10 @@
 @media (max-width: 375px) {
+
+  .no-mobile{
+    display: none;
+  }
+
+
   .side {
     display: none;
   }
@@ -128,10 +134,21 @@
      overflow-y: scroll;
    }
 
+   .basis-50 {
+      flex-basis: 100%;
+   }
+
+   .basis-33 {
+      flex-basis: 100%;
+   }
+
+
 }
 
 
 @media (min-width: 375px) and (max-width: 560px) {
+
+
 
   .next-project {
     position: fixed;
@@ -220,6 +237,21 @@
 
 @media (min-width: 376px) and (max-width: 768px) {
 
+  .basis-50 {
+     flex-basis: 100%;
+  }
+
+  .basis-33 {
+     flex-basis: 100%;
+  }
+
+  .nav-right{
+    /* flex-wrap: nowrap !important; */
+    display: inline-block !important;
+    margin-right: 1em;
+  }
+
+
   .name p {
     display: none;
   }
@@ -293,6 +325,7 @@
 
   .bio h3{
     font-size: 1.1em;
+    padding-bottom: 2em;
   }
 
   .wnba-gif{

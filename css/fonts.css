@@ -93,3 +93,14 @@
 	font-style: normal;
   src: url('../fonts/sharp/SG22.ttf');
 }
+
+@font-face {
+	font-family: 'Mabry';
+	/* font-weight: bold; */
+	font-style: medium;
+  src: url('../fonts/mabry/mabry-medium-pro.eot');
+  src: url('../fonts/mabry/mabry-medium-pro.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/mabry/mabry-medium-pro.woff') format('woff'),
+    url('../fonts/mabry/mabry-medium-pro.woff2') format('woff2'),
+    url('../fonts/mabry/mabry-medium-pro.otf') format('otf');
+}

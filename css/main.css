@@ -1,9 +1,16 @@
 p {
   font-family: "Berthold";
-  font-size: 1em;
+  font-size: 1.1em;
   letter-spacing: 0.01em;
   line-height: 1.8em;
   color: black;
+}
+
+p>em {
+    font-family: 'Berthold';
+    font-weight: normal;
+    font-style: normal;
+    background-color: #FFF3ED;
 }
 
 h1{
@@ -26,7 +33,7 @@ h3 {
   font-weight: 2000;
   font-size: 1.35em;
   margin-bottom: 0;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   line-height: 1.5;
 }
 
@@ -139,13 +146,12 @@ li:before {
 }
 
 .project h3 {
-  font-family: "BA";
+  font-family: "Berthold";
   color: black;
-  font-size: 1.3em;
-  text-transform: uppercase;
+  font-size: 1.4em;
+  /* text-transform: uppercase; */
   margin-top: 0;
-  padding-bottom: 0.5em;
-  letter-spacing: 0.05em;
+  /* letter-spacing: 0.05em; */
 }
 
 .project-img{
@@ -159,13 +165,35 @@ li:before {
 }
 
 nav {
-  position: fixed;
+  /* position: fixed; */
   z-index: 150;
   margin-left: 5em;
   margin-right: 5em;
   font-size: 0.5em;
   letter-spacing: 0.09em;
   padding-top: 3em;
+}
+
+.nav-right{
+  right:3%;
+  position: fixed;
+  width: calc(20% - 50px);
+}
+
+.nav-left{
+  left: 3%;
+  position: fixed;
+  width: calc(20% - 50px);
+}
+
+
+.split-right {
+    width: calc(50% - 5px);
+    position: relative;
+    display: block;
+    float: right;
+    margin: 0 0 0 5px;
+    padding: 0;
 }
 
 section {
@@ -207,6 +235,13 @@ img {
     color: #ffce1f;
 
 }
+
+
+/* SPACE UNDER PARAGRAPHS */
+.space{
+  padding-bottom: 2em;
+}
+
 
 .shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -327,7 +362,11 @@ img {
   color: #df6e00;
   text-align: center;
   font-size: 1em;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .eb-text{
   color: #4094A2;
@@ -376,19 +415,33 @@ img {
 
 
 .bio{
-  width: 60%;
+  /* width: 100%; */
   position: static;
-  padding-top: 15%;
+  padding-top: 12%;
   padding-left: 5%;
+  align-items: flex-start !important;
+}
+
+.bio p{
+  color: #fff4ed;
+  margin-top: 0;
+  font-family: "Berthold";
+  font-size: 1em;
+  /* margin-left: 3em; */
+  /* width: 30%; */
 }
 
 .bio h3{
-  font-family: "sg";
-  font-size: 1.8em;
+  font-family: "BA";
+  font-size: 35px;
   line-height: 1.5em;
   letter-spacing: 0.03em;
   color: #fff4ed;
   font-weight: 10;
+  /* width: 60%; */
+  margin-top: 0;
+  /* padding-left: 3em; */
+  padding-right: 2em;
 }
 
 .bio a{
@@ -414,7 +467,7 @@ img {
 .contact {
   /* display: flex; */
   /* justify-content: space-between; */
-  width: 40%;
+  /* width: 40%; */
 }
 
 .contact h3{
@@ -422,6 +475,7 @@ img {
   letter-spacing: 0.1em;
   font-size: 1em;
 }
+
 
 
 .col1of2{
@@ -447,6 +501,22 @@ img {
 .flex {
   flex:1 1 auto;
   margin-right: 1em;
+}
+
+.basis-50 {
+    flex-basis: 50%;
+}
+
+.basis-33 {
+    flex-basis: 33%;
+}
+
+.grow2 {
+  flex: 2;
+}
+
+.flex-start{
+  align-items: flex-start;
 }
 
 .video-flex{
@@ -661,6 +731,14 @@ img.image-hover{
   display: inline-block;
   letter-spacing: 2em;
 }
+
+.topbar {
+  position: fixed;
+  right: 10em;
+  display: inline-block;
+  letter-spacing: 2em;
+}
+
 
 .bottombar h3{
   letter-spacing: 0.3em;
