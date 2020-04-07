@@ -315,9 +315,9 @@ img {
   position: relative;
   margin: 0;
   text-align: center;
-  height: 100vh;
+  height: 75vh;
   z-index: 100;
-  background-color: #111111;
+  /* background-color: #111111; */
 }
 
 
@@ -332,7 +332,7 @@ img {
   margin-right:auto;
   width: 60%;
   font-size: 1.3em;
-  color: #fff4ed;
+  /* color: #fff4ed; */
 }
 
 
@@ -496,6 +496,10 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.container-top-align{
+  align-items: flex-start;
 }
 
 .flex {
