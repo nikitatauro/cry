@@ -233,7 +233,6 @@ img {
 
 .arrow {
     color: #ffce1f;
-
 }
 
 
@@ -614,7 +613,7 @@ img {
 }
 
 img.image-hover{
-  /* max-width:425px; */
+  max-width:425px;
   height:auto;
 }
 
@@ -714,7 +713,7 @@ img.image-hover{
 .name h3 {
   margin-bottom: 0.2em;
   letter-spacing: 0.1em;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .name p{
@@ -723,7 +722,7 @@ img.image-hover{
   /* font-family: "BA"; */
   letter-spacing: 0.03em;
   /* margin-top: 2em; */
-  width: 57%;
+  width: 40%;
   line-height: 1.5em;
   margin-top: 0;
 }
