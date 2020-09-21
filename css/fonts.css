@@ -9,6 +9,41 @@
 }
 
 @font-face {
+	font-family: 'neue';
+	/* font-weight: bold;
+	font-style: normal; */
+  src: url('../fonts/neue/neue-haas.eot');
+  src: url('../fonts/neue/neue-haas.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/neue/neue-haas.woff') format('woff'),
+    url('../fonts/neue/neue-haas.woff2') format('woff2'),
+    url('../fonts/neue/neue-haas.ttf') format('truetype');
+    url('../fonts/neue/neue-haas.otf') format('otf');
+}
+
+@font-face {
+	font-family: 'noto';
+	/* font-weight: bold;
+	font-style: normal; */
+  src: url('../fonts/noto/Noto.eot');
+  src: url('../fonts/noto/Noto.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/noto/Noto.woff') format('woff'),
+    url('../fonts/noto/Noto.woff2') format('woff2'),
+    url('../fonts/noto/Noto.otf') format('otf');
+}
+
+@font-face {
+	font-family: 'gt';
+	/* font-weight: bold;
+	font-style: normal; */
+  src: url('../fonts/gt/GT-America-Extended-Regular.eot');
+  src: url('../fonts/gt/GT-America-Extended-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gt/GT-America-Extended-Regular.woff') format('woff'),
+    url('../fonts/gt/GT-America-Extended-Regular.woff2') format('woff2'),
+    url('../fonts/gt/GT-America-Extended-Regular.otf') format('otf');
+}
+
+
+@font-face {
 	font-family: 'Graphik-Medium';
 	/* font-weight: bold;
 	font-style: normal; */
@@ -18,6 +53,7 @@
     url('../fonts/graphik/Graphik-Medium.woff2') format('woff2'),
     url('../fonts/graphik/Graphik-Medium.otf') format('otf');
 }
+
 @font-face {
 	font-family: 'Graphik-Semibold';
 	font-weight: bold;
