@@ -140,6 +140,10 @@ li:before {
 	margin-right: .5em;
 }
 
+::selection {
+  color: red;
+  background: yellow;
+}
 
 
 
@@ -204,11 +208,6 @@ section {
   display: block;
   width: 60%;
 }
-
-
-/* section h2 {
-  margin-top: 0;
-} */
 
 hr {
     display: block;
@@ -414,7 +413,10 @@ img {
 }
 
 
-
+.bio ::selection {
+  color: black;
+  background: white;
+}
 
 .bio{
   /* width: 100%; */
@@ -425,12 +427,10 @@ img {
 }
 
 .bio p{
-  color: #fff4ed;
+  color: rgb(142, 142, 142);
   margin-top: 0;
   font-family: "gt";
   font-size: 1em;
-  /* margin-left: 3em; */
-  /* width: 30%; */
 }
 
 .bio h3{
@@ -438,7 +438,8 @@ img {
   font-size: 35px;
   line-height: 1.5em;
   letter-spacing: 0.03em;
-  color: #fff4ed;
+  /* color: #fff4ed; */
+    color: rgb(142, 142, 142);
   font-weight: 10;
   /* width: 60%; */
   margin-top: 0;
@@ -449,28 +450,15 @@ img {
 .bio a{
   color: #fff4ed;
   font-size: 1em;
-    text-decoration: none;
+  text-decoration: none;
+  border-bottom: none;
 }
-
-.bio a{
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 0.03em;
-  -webkit-text-stroke-color: #fff4ed;
-}
-
 
 .bio a:hover {
-  -webkit-text-fill-color: transparent;
-	-webkit-text-fill-color: #fff4ed;
-  -webkit-text-stroke-width: 0.2px;
-  -webkit-text-stroke-color: black;
+ text-decoration: none !important;
+ border-bottom: none;
 }
 
-.contact {
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* width: 40%; */
-}
 
 .contact h3{
   /* margin-top: 3em; */
@@ -575,9 +563,6 @@ img {
  text-decoration: underline;
 }
 
-.inline-link a:hover{
-
-}
 
 .flex-project{
   z-index: 1000;
@@ -588,13 +573,6 @@ img {
 .vertical-align{
   align-items: center;
 }
-
-/* .about:hover .image-hover{
-  display: block;
-  top: 10vw;
-  left: 37vw;
-  z-index: 1000;
-} */
 
 .about:hover ~ .image-hover{
   display: block;
@@ -630,28 +608,12 @@ img.image-hover{
   transform: translate3d(-50%, -50%, 0);
 }
 
-/* .wnba:hover .image-hover {
-  display: block;
-  height: 55%;
-} */
-
 .aesop:hover .image-hover {
   display: block;
   height: 55%;
   z-index: 10;
 }
 
-
-/* .stevie figcaption {      ----------   COMING SOON
-  display: none;
-}
-
-.stevie:hover figcaption {
-  display: block;
-  position: fixed;
-  left: 43%;
-  top: 45%;
-} */
 
 .top strong{
   font-size: 2em;
@@ -854,12 +816,3 @@ img.image-hover{
 .video-overlay-play-button.is-hidden {
     display: none;
 }
-
-
-/* .video_wrapper iframe, .video_wrapper object, .video_wrapper embed {
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 59em;
-	height: 100%;
-} */

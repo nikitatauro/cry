@@ -123,12 +123,6 @@
     url('../fonts//sharp/sharp-medium.otf') format('otf');
 }
 
-@font-face {
-	font-family: 'sg';
-	font-weight: normal;
-	font-style: normal;
-  src: url('../fonts/sharp/SG22.ttf');
-}
 
 @font-face {
 	font-family: 'Mabry';
