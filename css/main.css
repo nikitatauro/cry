@@ -234,9 +234,16 @@ img {
 }
 
 .arrow {
-    color: #ffce1f;
+  color: #ffce1f;
 }
 
+.fun p {
+  font-size: .8em;
+}
+
+.fun h2 {
+  font-size: 1em;
+}
 
 /* SPACE UNDER PARAGRAPHS */
 .space{
