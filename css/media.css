@@ -66,8 +66,12 @@
      margin: 2em;
    }
 
-   .bio h3{
+   .bio h3, h5{
+    padding-top: 4em;
+    padding-bottom: 2em;
      font-size: 1.1em;
+     position: relative !important;
+     width: 90% !important;
    }
 
    .opening p{
@@ -177,11 +181,6 @@
     margin-bottom: 0;
   }
 
-  /* .name {
-    bottom: 3em !important;
-    left: 1em !important;
-  } */
-
 
 
 .video-flex video {
@@ -245,10 +244,17 @@
      flex-basis: 100%;
   }
 
+  nav{
+    /* margin-left: 0; */
+    display: inline-block;
+  }
+
+  .nav-left{
+    padding-left: 5em;
+  }
   .nav-right{
-    /* flex-wrap: nowrap !important; */
-    display: inline-block !important;
-    margin-right: 1em;
+    margin-right: 0em;
+    /* padding-right: 0; */
   }
 
 
@@ -320,11 +326,13 @@
  }
 
   .bio{
-    width: 80%;
+    width: 100%;
     margin: 2em;
   }
 
   .bio h3{
+    position: relative !important;
+    width: 90% !important;
     font-size: 1.1em;
     padding-bottom: 2em;
   }
