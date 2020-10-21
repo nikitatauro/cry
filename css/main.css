@@ -118,26 +118,26 @@ strong{
 }
 
 ol {
-  list-style-type: none;
-  counter-reset: li;
+	list-style-type: none;
+	counter-reset: li;
   margin-left: auto;
   margin-right: auto;
 }
 
 li {
-  font-size: 1rem;
+	font-size: 1rem;
   font-family: "Sharp";
   padding-top: 3%;
-  color:  #484848;
+  color: 	#484848;
 }
 
 li:before {
   counter-increment: li;
   content: counter(li, decimal-leading-zero);
   font-family: "Sharp";
-  font-size: 1.2rem;
+	font-size: 1.2rem;
   color: #0F1D85;
-  margin-right: .5em;
+	margin-right: .5em;
 }
 
 ::selection {
@@ -172,24 +172,25 @@ li:before {
 }
 
 nav {
-  position: fixed;
-  width: 100%;
+  /* position: fixed; */
   z-index: 150;
   margin-left: 5em;
   margin-right: 5em;
   font-size: 0.5em;
   letter-spacing: 0.09em;
   padding-top: 3em;
-  display: inline-block;
 }
 
 .nav-right{
-  padding-right: 5%;
-  float: right;
+  right:3%;
+  position: fixed;
+  width: calc(20% - 50px);
 }
 
 .nav-left{
-  float: left;
+  left: 3%;
+  position: fixed;
+  width: calc(20% - 50px);
 }
 
 
@@ -559,7 +560,7 @@ img {
 
 .link a:hover {
   -webkit-text-fill-color: transparent;
-  -webkit-text-fill-color: black;
+	-webkit-text-fill-color: black;
   -webkit-text-stroke-width: 0.2px;
   -webkit-text-stroke-color: black;
 }
@@ -771,7 +772,7 @@ img.image-hover{
 
 .next-project  a:hover {
     -webkit-text-fill-color: transparent;
-  -webkit-text-fill-color: black;
+	-webkit-text-fill-color: black;
    -webkit-text-stroke-width: 0.2px;
    -webkit-text-stroke-color: black;
 }
