@@ -331,7 +331,7 @@ img {
 
 .opening p {
   position: fixed;
-  font-family: "BA";
+  font-family: "gt";
   top: 35%;
   letter-spacing: .001em;
   left: 0;
@@ -340,7 +340,7 @@ img {
   margin-right:auto;
   width: 60%;
   font-size: 1.3em;
-  /* color: #fff4ed; */
+   /*color: #fff4ed; */
 }
 
 
@@ -623,7 +623,7 @@ img.image-hover{
 
 
 .top strong{
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .about img {
