@@ -4,6 +4,9 @@
     display: none;
   }
 
+  .next-project h1 {
+  font-size: 1em;
+}
 
   .side {
     display: none;
@@ -99,7 +102,7 @@
    }
 
    .bottombar{
-     top: 1em !important;
+     top: 1.46% !important;
      right: 1.8em !important;
    }
 
@@ -160,6 +163,10 @@
     /* top: 5em; */
     bottom: 0%;
   }
+  
+  .next-project h1 {
+  font-size: 1em;
+  }
 
   .name {
     position: fixed;
@@ -218,10 +225,10 @@
    display:none;
  }
 
-  .bottombar{
-    top: 1em !important;
-    right: 1.8em !important;
-  }
+ .bottombar{
+     top: 1.46% !important;
+     right: 1.8em !important;
+   }
 
   .bottombar h3{
     letter-spacing: 0.1em !important;
@@ -257,6 +264,9 @@
     /* padding-right: 0; */
   }
 
+  .next-project h1 {
+  font-size: 2em !important;
+  }
 
   .name p {
     display: none;

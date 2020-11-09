@@ -155,10 +155,11 @@ li:before {
 .project h3 {
   font-family: "Berthold";
   color: black;
-  font-size: 1.4em;
+  font-size: 1.2em;
   /* text-transform: uppercase; */
   margin-top: 0;
-  /* letter-spacing: 0.05em; */
+  margin-bottom: 0;
+  letter-spacing: 0 !important; 
 }
 
 .project-img{
@@ -204,7 +205,7 @@ nav {
 }
 
 section {
-  margin: 0 auto 8em auto;
+  margin: 0 auto 7em auto;
   display: block;
   width: 60%;
 }
@@ -340,7 +341,7 @@ img {
   margin-right:auto;
   width: 60%;
   font-size: 1.3em;
-   /*color: #fff4ed; */
+  text-align: left; 
 }
 
 
@@ -413,7 +414,6 @@ img {
 .image-hover {
   display: none;
   position: absolute;
-  z-index: -5;
   left: 0;
   top: 0;
   transform: translate3d(-50%, -50%, 0);
@@ -609,7 +609,7 @@ img.image-hover{
 .image-hover-lava, .image-hover{
   display: none;
   position: absolute;
-  z-index: -5;
+  z-index: 1;
   left: 0;
   top: 0;
   transform: translate3d(-50%, -50%, 0);
@@ -618,7 +618,7 @@ img.image-hover{
 .aesop:hover .image-hover {
   display: block;
   height: 55%;
-  z-index: 10;
+  z-index: -100;
 }
 
 
@@ -738,11 +738,7 @@ img.image-hover{
 }
 
 
-
-
-
 .next-project {
-  /* padding-top: 0.7em; */
   text-align: right;
   margin-top: 0;
 }
@@ -754,6 +750,7 @@ img.image-hover{
   letter-spacing: 0.1em;
   font-family: "BA";
   font-size: 2.5em;
+
 }
 
 .next-project p{
