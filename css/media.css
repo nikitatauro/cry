@@ -65,11 +65,10 @@
    }
 
    .bio{
-     width: 100%;
      margin: 2em;
    }
 
-   .bio h3, h5{
+   .bio h3{
     padding-top: 4em;
     padding-bottom: 2em;
      font-size: 1.1em;
@@ -155,6 +154,9 @@
 
 @media (min-width: 375px) and (max-width: 560px) {
 
+ .no-mobile{
+    display: none;
+  }
 
 
   .next-project {
@@ -336,7 +338,6 @@
  }
 
   .bio{
-    width: 100%;
     margin: 2em;
   }
 

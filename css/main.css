@@ -205,7 +205,7 @@ nav {
 }
 
 section {
-  margin: 0 auto 7em auto;
+  margin: 7em auto 0 auto;
   display: block;
   width: 60%;
 }
@@ -329,6 +329,27 @@ img {
   /* background-color: #111111; */
 }
 
+.projnav{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  margin: 0 auto 7em auto;
+  width: 60%;
+  background-color: white;
+  z-index: 10000;
+}
+
+.projnav h4{
+  font-family: "gt";
+}
+
+.projnav a:hover{
+  font-style: italic;
+}
+
+.projnav a::after{
+  font-size: 2em;
+}
 
 .opening p {
   position: fixed;

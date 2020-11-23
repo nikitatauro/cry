@@ -40,3 +40,6 @@ var videoPlayButton,
 	}
 
 videoMethods.renderVideoPlayButton()
+
+
+
