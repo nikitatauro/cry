@@ -336,7 +336,7 @@ img {
   margin: 0 auto 7em auto;
   width: 60%;
   background-color: white;
-  z-index: 10000;
+  z-index: 1000;
 }
 
 .projnav h4{
