@@ -31,17 +31,35 @@
 }
 
 
+
+
+.rh-container {
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+  padding: 3em;
+  flex-wrap: wrap;
+}
+
 .work {
   /*width: 100%;*/
-  display: inline-block;
-  flex: auto;
-  /*flex-basis: 100%;*/
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 33%;
   /*margin-right: 3em;*/
 }
 
 .work-content {
   display: flex;
 }
+
+.work h1 a {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.
 
 .black h4 {
   margin-top: 0.6em;
