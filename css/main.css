@@ -197,7 +197,7 @@ li:before {
 
 nav {
   /*position: fixed; */
-  z-index: 150;
+  z-index: 1;
   padding-left: 5em;
   padding-right: 5em;
   font-size: 0.5em;
@@ -337,11 +337,11 @@ img {
 
 .opening {
   /* ------------- CODE FOR BACKGROUND IMAGE ------------- */
-  position: relative;
+  /*position: relative;*/
   margin: 0;
   text-align: center;
   height: 80vh;
-  z-index: 100;
+  z-index: 1000;
   /* background-color: #111111; */
 }
 
@@ -379,6 +379,7 @@ img {
   width: 60%;
   font-size: 1.3em;
   text-align: left; 
+  z-index: 1000;
 }
 
 .project-context h3{
