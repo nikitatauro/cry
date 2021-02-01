@@ -1,5 +1,3 @@
-/*trial code*/
-
 .float-right{
   float: right;
 }
@@ -12,12 +10,24 @@
 .nav h3{
   margin-right: 2em;
   margin-left: 0;
+  font-family: "hk-regular";
 }
 
 .nav a:hover {
   -webkit-text-fill-color: transparent;
   -webkit-text-fill-color:  rgb(142, 142, 142);;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 
 
 nav a {
@@ -28,8 +38,10 @@ nav a {
 
 p {
   font-family: "gt";
-  font-size: 0.9em;
-  /* letter-spacing: 0.01em; */
+  font-size: .9em;  
+  font-family: "hk-regular";
+  font-size: 1em;
+   letter-spacing: -0.01em; 
   line-height: 1.8em;
   font-weight: 100;
   color: #333333;
@@ -69,10 +81,10 @@ h3 {
 }
 
 h4 {
-  font-family: "Graphik-Medium";
+  font-family: "hk-regular";
   /* font-style: bold; */
-  color: grey;
-  letter-spacing: 0.03em;
+  color: #333333;
+  letter-spacing: 0.01em;
   line-height: 1.5em;
   margin-bottom: 0.5em;
   font-size: 0.7em;
@@ -117,9 +129,6 @@ p a:hover {
 
 
 h3 a:hover {
-  /* -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black; */
   border-bottom: none;
 }
 
@@ -150,8 +159,9 @@ ol {
 }
 
 li {
-  font-size: .9em;
-  font-family: "gt";
+  font-size: 1em;
+  font-family: "hk-regular";
+  font-size: 1em;
   padding-top: 2%;
   color: #333333;
 }
@@ -196,7 +206,6 @@ li:before {
 }
 
 nav {
-  /*position: fixed; */
   z-index: 1;
   padding-left: 5em;
   padding-right: 5em;
@@ -224,6 +233,12 @@ section {
   margin: 7em auto 0 auto;
   display: block;
   width: 60%;
+}
+
+.about-section{
+  margin: 7em auto 0 auto;
+  display: block;
+  width: 80%;
 }
 
 hr {
@@ -356,11 +371,13 @@ img {
 }
 
 .projnav h4{
-  font-family: "gt";
+  font-family: "hk-regular";
+  font-size: .8em;
 }
 
 .projnav a:hover{
   font-style: italic;
+  font-family: "hk-italic";
 }
 
 .projnav a::after{
@@ -437,13 +454,6 @@ img {
   display: inline;
 }
 
-.dropbox-text {
-  font-family: "Sharp";
-  color: #0F1D85;
-  display: inline;
-  letter-spacing: 0.05em;
-}
-
 
 .aesopimg img {
   width: 100%;
@@ -486,21 +496,23 @@ img {
 .bio p{
   color: rgb(142, 142, 142);
   margin-top: 0;
-  font-family: "gt";
+  font-family: "hk-regular";
   font-size: 1em;
 }
 
 .bio h3{
   font-family: "gt";
-  font-size: 2em;
+  font-size: 1.7em;
   line-height: 1.5em;
-  letter-spacing: 0.03em;
+  letter-spacing: .001em;
    /*color: #fff4ed; */
     color: rgb(142, 142, 142);
   font-weight: 10;
   margin-top: 0;
   padding-right: 2em;
 }
+
+ 
 
 .bio a{
   color: #fff4ed;
@@ -651,6 +663,9 @@ img {
 
 
 
+
+/* ------------- ABOUT PAGE ------------- */
+
 .about:hover ~ .image-hover{
   display: block;
   overflow: visible;
@@ -660,6 +675,8 @@ img {
   left: 80vw;
   z-index: 1000;
 }
+
+
 .about-lava:hover ~ .image-hover-lava{
   display: block;
   overflow: visible;
@@ -670,9 +687,10 @@ img {
   z-index: 1000;
 }
 
-img.image-hover{
-  height:auto;
-    z-index: -1;
+.about img {
+  position: fixed;
+  left: 50%;
+  top: 50%;
 }
 
 .image-hover-lava, .image-hover{
@@ -684,27 +702,60 @@ img.image-hover{
   transform: translate3d(-50%, -50%, 0);
 }
 
+/* --------------------------------------- */
+
+
+
+
+/*
+img.image-hover{
+  height:auto;
+  z-index: -1;
+}
+*/
+
 .aesop:hover .image-hover {
   display: block;
   height: 55%;
   z-index: -100;
 }
 
+.next-project:hover .name{
+  display: none;
+}
+
+.about h3, .aesop h3{
+  display: none;
+  position: relative;
+}
+
+.aesop:hover h3{
+
+  font-size: 1em;
+  text-align: left;
+  display: block;
+  position: fixed;
+  left: 3em;
+  bottom: 1.95em;
+  width: 25%;
+  z-index: 1000;
+  margin: 0;
+
+  font-family: "hk-regular";
+  font-weight: 100; 
+  letter-spacing: .001em;
+  font-size: .85em;
+
+  }
+
+
+
+
 .top strong{
   font-size: 1.5em;
 }
 
-.about img {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-}
 
-.wnba img {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-}
 
 .aesop img {
   position: fixed;
@@ -712,51 +763,28 @@ img.image-hover{
   top: 55%;
 }
 
-.stevie img {
-  position: fixed;
-  left: 50%;
-  top: 45%;
-}
-
-.side {
-  position: fixed;
-  left: 2.5em;
-  top: 1em;
-  width: 30%;
-}
-
-.side h3{
-  color: #B8B8B8;
-  font-size: .7em;
-  line-height: 1em;
-  letter-spacing: 0.05em;
-  opacity: 0.7;
-}
 
 
 .name {
   position: fixed;
-  left: 3em;
-  top: 3em;
-
+  left: 2.5em;
+  bottom: 1.95em;  
+  text-align: left;
+  width: 24%;
 }
 
-.name h3 {
-  margin-bottom: 0.5em;
-  letter-spacing: 0.1em;
-  font-size: 2em;
-}
+
 
 .name p{
-  font-family: "gt";
-  margin-bottom: 0.2em;
+  font-family: "hk-regular";
+  margin-bottom: 0em !important;
   font-weight: 100; 
-  letter-spacing: .001em;
-  /*font-size: 1em;*/
+  letter-spacing: 0em;
   text-align: left; 
-  width: 40%;
   z-index: -20000;
+  font-size: .85em !important;
 }
+
 
 .bottombar{
   position: fixed;

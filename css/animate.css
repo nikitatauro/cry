@@ -373,58 +373,8 @@
 /* ------------------------- TYPING EFFECT ------------------------- */
 
 
-.about h3, .wnba h3, .stevie h3, .aesop h3{
-  display: none;
-  position: relative;
-}
 
-.aesop:hover h3{
-
- /* font-size: .7em;
-  line-height: 2em;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  text-align: left;
-  display: block;
-  position: fixed;
-  left: 3.55em;
-  top: 1.95em;
-  width: 15%;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 30em;
-  animation: type 0.6s steps(60, end);
-  z-index: 1000;
-  margin: 0;*/
-
-  font-size: 1em;
-  /*line-height: 2em;*/
-  /*letter-spacing: 0.05em;*/
-  /*text-transform: uppercase;*/
-  text-align: left;
-  display: block;
-  position: fixed;
-  left: 3em;
-  bottom: 1.95em;
-  width: 25%;
-  /*white-space: nowrap;*/
- /* overflow: hidden;*/
-  /*width: 30em;*/
-  /*animation: type 0.6s steps(60, end);*/
-  z-index: 1000;
-  margin: 0;
-
-
-
-  font-family: "gt";
-  font-weight: 100; 
-  letter-spacing: .001em;
-  font-size: .8em;
-
-  }
-
-
-.about:hover h3 {
+/*.about:hover h3 {
 
   font-size: 0.7em;
   line-height: 1em;
@@ -444,7 +394,7 @@
   margin: 0;
   }
 
-
+*/
 
 /* TYPING ANIMATION CODE TAKEN FROM https://codepen.io/anon/pen/PaeNBj */
 

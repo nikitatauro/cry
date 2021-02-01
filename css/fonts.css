@@ -1,35 +1,40 @@
 @font-face {
-	font-family: 'Graphik-Regular';
-	font-weight: bold;
-	font-style: normal;
-  src: url('../fonts/graphik/Graphik-Regular.eot');
-  src: url('../fonts/graphik/Graphik-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/graphik/Graphik-Regular.woff') format('woff'),
-    url('../fonts/graphik/Graphik-Regular.ttf') format('truetype');
+  font-family: 'hk-regular';
+  src: url('../fonts/hk/HKGrotesk-RegularLegacy.eot');
+  src: url('../fonts/hk/HKGrotesk-RegularLegacy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/hk/HKGrotesk-RegularLegacy.woff') format('woff'),
+    url('../fonts/hk/HKGrotesk-RegularLegacy.ttf') format('truetype'),
+    url('../fonts/hk/HKGrotesk-RegularLegacy.otf') format('otf');
 }
 
 @font-face {
-	font-family: 'neue';
-	/* font-weight: bold;
-	font-style: normal; */
-  src: url('../fonts/neue/neue-haas.eot');
-  src: url('../fonts/neue/neue-haas.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/neue/neue-haas.woff') format('woff'),
-    url('../fonts/neue/neue-haas.woff2') format('woff2'),
-    url('../fonts/neue/neue-haas.ttf') format('truetype');
-    url('../fonts/neue/neue-haas.otf') format('otf');
+  font-family: 'hk-italic';
+  src: url('../fonts/hk/HKGrotesk-MediumLegacyItalic.eot');
+  src: url('../fonts/hk/HKGrotesk-MediumLegacyItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/hk/HKGrotesk-MediumLegacyItalic.woff') format('woff'),
+    url('../fonts/hk/HKGrotesk-MediumLegacyItalic.ttf') format('truetype'),
+    url('../fonts/hk/HKGrotesk-MediumLegacyItalic.otf') format('otf');
 }
 
 @font-face {
-	font-family: 'noto';
-	/* font-weight: bold;
-	font-style: normal; */
-  src: url('../fonts/noto/Noto.eot');
-  src: url('../fonts/noto/Noto.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/noto/Noto.woff') format('woff'),
-    url('../fonts/noto/Noto.woff2') format('woff2'),
-    url('../fonts/noto/Noto.otf') format('otf');
+  font-family: 'recife';
+  src: url('../fonts/recife/RecifeDisplay-Book.eot');
+  src: url('../fonts/recife/RecifeDisplay-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/recife/RecifeDisplay-Book.woff') format('woff'),
+    url('../fonts/recife/RecifeDisplay-Book.ttf') format('truetype');
+    /*url('../fonts/recife/HKGrotesk-MediumLegacyItalic.otf') format('otf');*/
 }
+
+@font-face {
+  font-family: 'recife-light';
+  src: url('../fonts/recife/RecifeText-Light.eot');
+  src: url('../fonts/recife/RecifeText-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/recife/RecifeText-Light.woff') format('woff'),
+    url('../fonts/recife/RecifeText-Light.ttf') format('truetype'),
+    url('../fonts/recife/RecifeText-Light.otf') format('otf');
+}
+
+
 
 @font-face {
 	font-family: 'gt';
@@ -43,6 +48,7 @@
 }
 
 
+
 @font-face {
 	font-family: 'Graphik-Medium';
 	/* font-weight: bold;
@@ -54,16 +60,6 @@
     url('../fonts/graphik/Graphik-Medium.otf') format('otf');
 }
 
-@font-face {
-	font-family: 'Graphik-Semibold';
-	font-weight: bold;
-	font-style: normal;
-  src: url('../fonts/graphik/Graphik-Semibold.eot');
-  src: url('../fonts/graphik/Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/graphik/Graphik-Semibold.woff') format('woff'),
-    url('../fonts/graphik/Graphik-Semibold.otf') format('otf'),
-    url('../fonts/graphik/Graphik-Semibold.ttf') format('truetype');
-}
 
 
 @font-face {
@@ -112,25 +108,3 @@
     url('../fonts/BA.ttf') format('truetype');
 }
 
-@font-face {
-	font-family: 'Sharp';
-	font-weight: normal;
-	font-style: normal;
-  src: url('../fonts/sharp/sharp-medium.eot');
-  src: url('../fonts/sharp/sharp-medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/sharp/sharp-medium.woff2') format('woff2'),
-    url('../fonts/sharp/sharp-medium.woff') format('woff'),
-    url('../fonts//sharp/sharp-medium.otf') format('otf');
-}
-
-
-@font-face {
-	font-family: 'Mabry';
-	/* font-weight: bold; */
-	font-style: medium;
-  src: url('../fonts/mabry/mabry-medium-pro.eot');
-  src: url('../fonts/mabry/mabry-medium-pro.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/mabry/mabry-medium-pro.woff') format('woff'),
-    url('../fonts/mabry/mabry-medium-pro.woff2') format('woff2'),
-    url('../fonts/mabry/mabry-medium-pro.otf') format('otf');
-}
